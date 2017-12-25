@@ -7,7 +7,6 @@ import (
 )
 
 func TestGet(t *testing.T) {
-	Server = "172.30.10.161"
 	Prefix = "/conflab/config/"
 	appId := "a"
 	Register(appId)
@@ -21,7 +20,6 @@ func TestGet(t *testing.T) {
 }
 
 func TestGetBoolean(t *testing.T) {
-	Server = "172.30.10.161"
 	Prefix = "/conflab/config/"
 	appId := "a"
 	Register(appId)
@@ -36,7 +34,6 @@ func TestGetBoolean(t *testing.T) {
 }
 
 func TestGetInt(t *testing.T) {
-	Server = "172.30.10.161"
 	Prefix = "/conflab/config/"
 	appId := "a"
 	Register(appId)
